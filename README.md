@@ -5,14 +5,14 @@
 
 **Production data lakehouse with medallion architecture for healthcare data with full lineage tracking.**
 
-## 🎯 Business Impact
+## Business Impact
 
 - **Full data provenance** from raw ingestion to ML-ready features
 - **100% audit coverage** for FDA and HIPAA compliance
 - **Automated quality checks** at every transformation stage
 - **Impact analysis** before schema changes
 
-## 🏗️ Architecture (Medallion)
+## Architecture (Medallion)
 
 ```
 ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌──────────────┐
@@ -27,7 +27,7 @@
                                                          └──────────────┘
 ```
 
-## ✨ Key Features
+## Key Features
 
 - **Medallion Architecture**: Landing → Bronze → Silver → Gold → Platinum
 - **Full Data Lineage**: Track every transformation
@@ -35,13 +35,13 @@
 - **Quality Gates**: Automated validation at each stage
 - **Impact Analysis**: Understand downstream effects before changes
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 pip install -e ".[dev]"
 pytest
 ```
 
-## 👤 Author
+## Author
 
 **Christopher Mangun** - [LinkedIn](https://linkedin.com/in/cmangun)
